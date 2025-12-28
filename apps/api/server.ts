@@ -4,10 +4,11 @@ import { PopularMovie } from './app/popular';
 import { TopRated } from './app/top-rated';
 import { getmoviebyid } from './app/movie';
 
+const port = process.env.PORT || '3001';
 const app = express();
 app.use(cors());
 
-app.listen('3001');
+app.listen(port);
 console.log("wow this code is running without any problem");
 
 app.get('/', (req, res, next) => {
