@@ -1,7 +1,7 @@
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_KEY = '0021b5a28c9efe4011629cc1f6c2f89e';
 
-async function TopRated() {
+export async function TopRated() {
     try {
         const res = await fetch(`${BASE_URL}/movie/top_rated?api_key=${API_KEY}`);
         if (!res.ok) {
@@ -15,8 +15,6 @@ async function TopRated() {
         return { error: "Failed to fetch movies" }
     }
 }
-
-export const Rated = await TopRated();
 
 
 

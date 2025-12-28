@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors'
-import { Movies } from './app/popular';
-import { Rated } from './app/top-rated';
+import { PopularMovie } from './app/popular';
+import { TopRated } from './app/top-rated';
 import { getmoviebyid } from './app/movie';
 
 const app = express();
@@ -15,18 +15,18 @@ app.get('/', (req, res, next) => {
     next()
 })
 
-app.get('/movie/popular', (req, res) => {
+app.get('/movie/popular', async (req, res) => {
     try {
         console.log(req.originalUrl + Date());
-        res.json(Movies)
+        res.json(await PopularMovie())
     } catch (error) {
         res.status(500).send({ error })
     }
 })
 
-app.get('/movie/top-rated', (req, res) => {
+app.get('/movie/top-rated', async (req, res) => {
     try {
-        res.json(Rated);
+        res.json(await TopRated());
         console.log(req.originalUrl + Date());
 
     } catch (error) {

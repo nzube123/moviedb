@@ -15,16 +15,16 @@ export async function fetchdata(category: string) {
 
 
 async function popular() {
-    const res = await fetch(`http://localhost:3001/movie/popular`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/movie/popular`);
     return res.json();
 }
 
 async function topRated() {
-    const res = await fetch(`http://localhost:3001/movie/top-rated`);
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/movie/top-rated`);
     return res.json();
 }
 
-export const getMovieId =  async (id: string) => {
-    const res = await fetch(`http://localhost:3001/movie/movie/${id}`);
+export const getMovieId = async (id: string) => {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/movie/movie/${id}`);
     return res.json()
 }
