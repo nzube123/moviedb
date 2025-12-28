@@ -4,3 +4,13 @@
 .title-cont{
     margin-left: 10px;
 }
+.movie_details {
+    word-spacing: 2px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.movie_details b {
+    font-size: 12px;
+}

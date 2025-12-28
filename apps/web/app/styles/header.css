@@ -1,0 +1,36 @@
+.header_cont {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.search_cont {
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.search {
+    width: 75%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.search_btn {
+    width: 20%;
+    margin-left: 5%;
+    background-color: #567f8b;
+    padding: 10px;
+    font-size: 15px;
+}
+.theme{
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.theme2{
+    font-family: monospace;
+    font-size: 15px;
+}

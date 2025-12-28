@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import styles from "./page.module.css";
 import { Category } from "./ui/home/category";
 import HeaderJSX from "./ui/home/header";
 

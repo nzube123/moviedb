@@ -1,17 +1,37 @@
-.movie_cont{
+:root {
+    background-color: #131314;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image:
+        radial-gradient(circle at 0% 0%, rgba(66, 133, 244, 0.15) 0%, transparent 35%),
+        radial-gradient(circle at 100% 100%, rgba(155, 114, 203, 0.1) 0%, transparent 35%);
+}
+
+.movie_cont {
     display: flex;
     overflow-x: auto;
 }
-.movies{
-    padding: 15px;
-    box-shadow: 2px 2px 5px 2px black;
+
+.movies {
     margin: 5px;
-    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1e1e20;
+    box-shadow: 1px 1px 5px 1px grey;
 }
-.title{
-    text-align: center;
-    font-family: monospace;
+
+.title {
+    text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 10px;
+        text-align: center;
 }
-h1{
+
+h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link{
+    text-decoration: none; 
 }
