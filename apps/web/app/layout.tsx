@@ -10,6 +10,9 @@ export default function CategoryLayout({ children }: PropsWithChildren) {
 
   return (
     <html>
+      <head>
+        <title>Moviedb</title>
+      </head>
       <body>
         <QueryClientProvider client={queryclient} >
           {children}
