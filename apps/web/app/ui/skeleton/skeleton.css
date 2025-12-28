@@ -1,0 +1,41 @@
+.movie_cont {
+    display: flex;
+}
+
+.movie_item {
+    margin: 5px;
+    border: 1px solid white;
+    /* padding: 300px; */
+    border-radius: 10px;
+    background-color: #1e1e20;
+    box-shadow: 1px 1px 5px 1px grey;
+    width: 170px;
+    height: 250px;
+}
+
+.title {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 2px #1e1e20;
+}
+
+.imageskeleton {
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #1e1e20;
+    box-shadow: 1px 1px 5px 1px grey;
+    width: 150px;
+    height: 200px;
+}
+
+.titleskele {
+    box-shadow: 2px 2px 5px 2px grey;
+    width: 70%;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}

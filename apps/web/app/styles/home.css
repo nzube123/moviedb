@@ -1,0 +1,17 @@
+.movie_cont{
+    display: flex;
+    overflow-x: auto;
+}
+.movies{
+    padding: 15px;
+    box-shadow: 2px 2px 5px 2px black;
+    margin: 5px;
+    border-radius: 20px;
+}
+.title{
+    text-align: center;
+    font-family: monospace;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
